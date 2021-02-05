@@ -1,0 +1,256 @@
+/* GENERAL */
+
+body{
+margin: 0px;
+scroll-behavior: smooth;
+}
+
+.Grey-background {
+  background-color: #eeeeee;
+
+}
+
+.Center-txt {
+  text-align: center;
+}
+/*  END OF GENERAL  */
+
+/*Video  */
+
+
+/*   NAVAGATION BAR   */
+
+#navbar {
+  overflow: hidden;
+  background-color: #222831;
+  top: 0;
+  width: 100%;
+}
+
+#navbar a {
+  float: left;
+width: 20%;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 7px 0px 7px 0px ;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #eeeeee;
+  color: black;
+
+}
+
+
+
+.content {
+  padding: 16px;
+}
+
+.Heading {
+color: #222831;
+font-weight: bold;
+font-family: 'Times New Roman', serif;
+font-size: 35px;
+margin-left: 30%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+/*    END OF NAVAGATION BAR   */
+
+
+
+/*   VIDEO    */
+
+/* Style the video: 100% width and height to cover the entire window */
+/* Style the video: 100% width and height to cover the entire window */
+
+video {
+position: relative;
+height: 100%;
+width: 100%;
+padding: 0;
+}
+.Hero-Video {
+padding: 0px;
+width: 100%;
+height: 100%;
+max-height: 100%;
+
+}
+
+#myVideo {
+position: relative;
+right: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+margin: 0px
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+position: absolute;
+top: 10%;
+color: #f1f1f1;
+width: 100%;
+padding: 0px 0px 0px 0px;
+display: block;
+}
+
+/* END OF VIDEO */
+
+/*CONTENTS PAGE */
+
+#Content-Page {
+margin: 1%;
+padding: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0px;
+
+}
+
+td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.pageNum {
+text-align: right;
+padding-top: 15px;
+
+}
+/*END CONTENTS PAGE */
+
+/*TEAM PROFILE  */
+
+.Team-Profile{
+background-color: blue;
+padding: 10px 10px 10px 5px;
+
+}
+
+/* END OF TEAM PROFILE  */
+
+/*  TOOLS   */
+#Tools {
+padding: 10px 9px 10px 9px;
+}
+
+/*  END OF TOOLS   */
+
+
+/*  PROJECT PLAN / DESCRIPTION   */
+.ppNd {
+background-color: yellow;
+padding: 10px 10px 10px 5px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  width: 70%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  margin-left: 30%
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 30px;
+
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+/* Cards */
+
+
+#card {
+
+  overflow: hidden;
+ font-size: 40px;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 50%;
+  height: 305px;
+  margin: auto;
+  text-align: center;
+  margin-left: 0%;
+  padding: 0;
+}
+
+#card a {
+  float: left;
+font-weight: bolder;
+ font-size: 40px;
+   width: 100%;
+  height: 100%;
+
+  display: block;
+  color: #blue;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#card a:hover {
+
+  background-color: #393e46;
+border-top: 100%;
+  width: 100%;
+  height: 100%;
+  color: #00adb5;
+
+}
+
+
+
+}
+/*  END OF PROJECT PLAN / DESCRIPTION   */
+
+
+/*  SKILLS AND JOBS   */
+.Skills-N-Jobs {
+background-color: purple;
+padding: 10px 10px 10px 5px;
+}
+/*  END OF SKILLS AND JOBS   */
+
+
+
+/*  GROUP REFLECTION   */
+.Group-Reflection {
+background-color: aqua;
+padding: 10px 10px 10px 5px;
+}
+/*  END OF GROUP REFLECTION   */

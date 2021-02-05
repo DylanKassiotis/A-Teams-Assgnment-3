@@ -1,0 +1,187 @@
+<!-- Created By Dylan Kassiotis on (29/01/2021) -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Styles\indexStyle.css">
+  <title>Group13-assessment 3</title>
+</head>
+
+<body>
+
+  <!--   NAV-BAR   -->
+  <div id="navbar">
+    <a class="active" href="#Team-Profile">Team Profile <br> ‏‏‎ </a>
+    <a href="#Tools">Tools <br> ‏‏‎ </a>
+    <a href="#ppNd">Project Plan And <br>Description</a>
+    <a href="#Skills-N-Jobs">Skills And <br> Jobs </a>
+    <a href="#Group-Reflection">Group Reflection <br> ‏‏‎ </a>
+  </div>
+
+  <!--  END OF END-BAR  -->
+
+  <!-- The video -->
+  <div class="Hero-Video">
+
+    <video autoplay muted loop id="myVideo">
+      <source src="Videos\BackGround.mp4" type="video/mp4">
+    </video>
+
+    <!-- END OF VIDEO  -->
+
+    <!--THE HEADING -->
+    <div class="content">
+      <h1 class="Heading">The A team's Assignment 3 (Draft)</h1>
+    </div>
+  </div>
+
+  <!-- END OF HERO BANNER -->
+
+
+  <!--     CONTENTS PAGE    -->
+
+  <div id="Content-Page" class="Grey-background">
+
+    <table>
+      <tr>
+        <td><a href="TeamProfile.html">Team Profile</a></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><a href="#Tools">Tools</a> </td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td><a href="ppNd.html">Project Plan/Description</a> </td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td><a href="#Skills-N-Jobs">Skills and Jobs</a> </td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td><a href="#Group-Reflection">Group Reflection</a> </td>
+        <td>5</td>
+      </tr>
+
+    </table>
+
+
+  </div>
+
+  <!--    END OF CONTENTS PAGE    -->
+
+
+
+
+  <!--  TEAM PROFILE   -->
+  <div id="Team-Profile">
+    <div class="row">
+
+      <div class="column">
+        <div id="card">
+
+          <a href="TeamProfile.html"> <br><br><br><br>
+            <h1>Team Profile</h1>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="pageNum">1</p>
+  </div>
+  <!--  END OF TEAM PROFILE   -->
+
+
+  <!--  TOOLS   -->
+  <div id="Tools" class="Grey-background">
+    <h1 class="Center-txt">Tools</h1>
+    <br>
+    <h3>Group site links </h3>
+    <table>
+      <tr>
+        <td>Website link: </td>
+        <td>
+          <p><strong>NEEDS TO BE ADDED</strong> </p>
+        </td>
+      </tr>
+      <tr>
+        <td>GitHub Repository:</td>
+        <td>
+          <p><strong>NEEDS TO BE ADDED</strong> </p>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <h3>Comments</h3>
+    <p>The GitHub repository does not accurately depict the groups contributions as Mignone and Steven do not have knowledge of programming languages and Git. As a result, all of the items on GitHub have been programmed and uploaded by Dylan.
+      However, all of the writing tasks completed by Mignone and Steven have been credited to their respected author at the top of the document. Additionally, MS Teams transcribes the efforts and contributions of all group members. </p>
+
+    <p class="pageNum">2</p>
+  </div>
+  <!--  END OF TOOLS   -->
+
+
+  <!--  PROJECT PLAN / DESCRIPTION   -->
+  <div id="ppNd">
+
+    <br><br>
+    <div class="row">
+
+      <div class="column">
+        <div id="card">
+
+          <a href="ppNd.html"> <br><br><br><br>
+            <h1>Project Plan And <br> Description</h1>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <p class="pageNum">3</p>
+  </div>
+  <!--  END OF PROJECT PLAN / DESCRIPTION   -->
+
+
+  <!--  SKILLS AND JOBS   -->
+  <div id="Skills-N-Jobs" class="Grey-background">
+    <h1 class="Center-txt">Skills And Jobs</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <p class="pageNum">4</p>
+  </div>
+  <!--  END OF SKILLS AND JOBS   -->
+
+
+  <!--  GROUP REFLECTION   -->
+  <div id="Group-Reflection" class="Grey-background">
+    <h1 class="Center-txt">Group Reflection</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="pageNum">5</p>
+  </div>
+  <!--  END OF GROUP REFLECTION   -->
+
+  <!--  JAVASCRIPT  -->
+  <script>
+    window.onscroll = function() {
+      myFunction()
+    };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+  <!--  END OF JAVASCRIPT  -->
+
+</body>
+
+</html>

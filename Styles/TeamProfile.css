@@ -1,0 +1,22 @@
+#Sticky-Button{
+  position: sticky;
+}
+
+.IT-Tech-btn {
+  position: sticky;
+
+  border: none;
+  outline: 0;
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 85%;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 10%;
+  font-size: 18px;
+}

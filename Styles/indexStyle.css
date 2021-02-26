@@ -3,6 +3,7 @@
 body{
 margin: 0px;
 scroll-behavior: smooth;
+
 }
 
 * {
@@ -23,9 +24,11 @@ p{
   padding-left: 3%;
 }
 
-.pageNum {
-  max-width: 99%;
+h1, h2, h3, h4, ul, ol  {
+  padding-left: 2%;
+
 }
+
 /*  END OF GENERAL  */
 
 /*Video  */
